@@ -6,7 +6,7 @@ import routes from "tempo-routes";
 function App() {
   return (
     <Suspense fallback={<p>Loading...</p>}>
-      <><h2>Private repo from github</h2>
+      <><h2>Private repo from github</h2><h1>Github Marcos</h1>
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
